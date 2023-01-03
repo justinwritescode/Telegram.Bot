@@ -41,6 +41,7 @@ public class InlineKeyboardMarkup : IReplyMarkup
     /// </summary>
     /// <param name="inlineKeyboard">The inline keyboard.</param>
     [JsonConstructor]
+    [System.Text.Json.Serialization.JsonConstructor]
     public InlineKeyboardMarkup(IEnumerable<IEnumerable<InlineKeyboardButton>> inlineKeyboard) =>
         InlineKeyboard = inlineKeyboard;
 

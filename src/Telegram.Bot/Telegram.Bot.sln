@@ -1,0 +1,37 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telegram.Bot", "Telegram.Bot.csproj", "{90B9DE21-4559-48A3-BE1B-7F581EB7C163}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumSerializer.Generator", "..\EnumSerializer.Generator\EnumSerializer.Generator.csproj", "{EEC570D6-8ADE-4EEE-B1C7-72B0B8B5F83C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Local|Any CPU = Local|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Staging|Any CPU = Staging|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90B9DE21-4559-48A3-BE1B-7F581EB7C163}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{90B9DE21-4559-48A3-BE1B-7F581EB7C163}.Local|Any CPU.Build.0 = Local|Any CPU
+		{90B9DE21-4559-48A3-BE1B-7F581EB7C163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90B9DE21-4559-48A3-BE1B-7F581EB7C163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90B9DE21-4559-48A3-BE1B-7F581EB7C163}.Staging|Any CPU.ActiveCfg = Staging|Any CPU
+		{90B9DE21-4559-48A3-BE1B-7F581EB7C163}.Staging|Any CPU.Build.0 = Staging|Any CPU
+		{90B9DE21-4559-48A3-BE1B-7F581EB7C163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90B9DE21-4559-48A3-BE1B-7F581EB7C163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEC570D6-8ADE-4EEE-B1C7-72B0B8B5F83C}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{EEC570D6-8ADE-4EEE-B1C7-72B0B8B5F83C}.Local|Any CPU.Build.0 = Local|Any CPU
+		{EEC570D6-8ADE-4EEE-B1C7-72B0B8B5F83C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC570D6-8ADE-4EEE-B1C7-72B0B8B5F83C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC570D6-8ADE-4EEE-B1C7-72B0B8B5F83C}.Staging|Any CPU.ActiveCfg = Staging|Any CPU
+		{EEC570D6-8ADE-4EEE-B1C7-72B0B8B5F83C}.Staging|Any CPU.Build.0 = Staging|Any CPU
+		{EEC570D6-8ADE-4EEE-B1C7-72B0B8B5F83C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC570D6-8ADE-4EEE-B1C7-72B0B8B5F83C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74AF220F-889A-490B-976F-A66859A44D39}
+	EndGlobalSection
+EndGlobal
