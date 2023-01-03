@@ -3,12 +3,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telegram.Bot", "Telegram.Bo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumSerializer.Generator", "..\EnumSerializer.Generator\EnumSerializer.Generator.csproj", "{EEC570D6-8ADE-4EEE-B1C7-72B0B8B5F83C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{79111222-4061-488C-AB5B-5F55719CEA1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Local|Any CPU = Local|Any CPU
 		Debug|Any CPU = Debug|Any CPU
 		Staging|Any CPU = Staging|Any CPU
 		Release|Any CPU = Release|Any CPU
+		Testing|Any CPU = Testing|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{90B9DE21-4559-48A3-BE1B-7F581EB7C163}.Local|Any CPU.ActiveCfg = Local|Any CPU
@@ -19,6 +22,8 @@ Global
 		{90B9DE21-4559-48A3-BE1B-7F581EB7C163}.Staging|Any CPU.Build.0 = Staging|Any CPU
 		{90B9DE21-4559-48A3-BE1B-7F581EB7C163}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90B9DE21-4559-48A3-BE1B-7F581EB7C163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90B9DE21-4559-48A3-BE1B-7F581EB7C163}.Testing|Any CPU.ActiveCfg = Testing|Any CPU
+		{90B9DE21-4559-48A3-BE1B-7F581EB7C163}.Testing|Any CPU.Build.0 = Testing|Any CPU
 		{EEC570D6-8ADE-4EEE-B1C7-72B0B8B5F83C}.Local|Any CPU.ActiveCfg = Local|Any CPU
 		{EEC570D6-8ADE-4EEE-B1C7-72B0B8B5F83C}.Local|Any CPU.Build.0 = Local|Any CPU
 		{EEC570D6-8ADE-4EEE-B1C7-72B0B8B5F83C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -27,9 +32,15 @@ Global
 		{EEC570D6-8ADE-4EEE-B1C7-72B0B8B5F83C}.Staging|Any CPU.Build.0 = Staging|Any CPU
 		{EEC570D6-8ADE-4EEE-B1C7-72B0B8B5F83C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEC570D6-8ADE-4EEE-B1C7-72B0B8B5F83C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEC570D6-8ADE-4EEE-B1C7-72B0B8B5F83C}.Testing|Any CPU.ActiveCfg = Testing|Any CPU
+		{EEC570D6-8ADE-4EEE-B1C7-72B0B8B5F83C}.Testing|Any CPU.Build.0 = Testing|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{90B9DE21-4559-48A3-BE1B-7F581EB7C163} = {79111222-4061-488C-AB5B-5F55719CEA1B}
+		{EEC570D6-8ADE-4EEE-B1C7-72B0B8B5F83C} = {79111222-4061-488C-AB5B-5F55719CEA1B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {74AF220F-889A-490B-976F-A66859A44D39}
