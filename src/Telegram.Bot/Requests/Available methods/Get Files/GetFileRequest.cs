@@ -1,5 +1,6 @@
 // ReSharper disable once CheckNamespace
 namespace Telegram.Bot.Requests;
+using File = Telegram.Bot.Types.File;
 
 /// <summary>
 /// Use this method to get basic info about a file and prepare it for downloading. For the moment,

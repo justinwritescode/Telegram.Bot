@@ -37,8 +37,10 @@ public class ApiResponse<TResult>
     /// Gets the result object.
     /// </summary>
     [JsonProperty(DefaultValueHandling = DefaultValueHandling.Ignore)]
+    #if NET6_0_OR_GREATER
     [MaybeNull]
     [AllowNull]
+    #endif
     public TResult Result { get; private set; }
 
     /// <summary>

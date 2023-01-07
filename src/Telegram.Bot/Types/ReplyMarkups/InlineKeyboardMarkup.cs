@@ -56,7 +56,9 @@ public class InlineKeyboardMarkup : IReplyMarkup
     /// Generate an inline keyboard markup with one button
     /// </summary>
     /// <param name="button">Inline keyboard button</param>
-    [return: NotNullIfNotNull("button")]
+    #if NET6_0_OR_GREATER
+[return: NotNullIfNotNull("button")]
+    #endif
     public static implicit operator InlineKeyboardMarkup?(InlineKeyboardButton? button) =>
         button is null ? default : new(button);
 
@@ -64,7 +66,9 @@ public class InlineKeyboardMarkup : IReplyMarkup
     /// Generate an inline keyboard markup with one button
     /// </summary>
     /// <param name="buttonText">Text of the button</param>
-    [return: NotNullIfNotNull("buttonText")]
+    #if NET6_0_OR_GREATER
+[return: NotNullIfNotNull("buttonText")]
+#endif
     public static implicit operator InlineKeyboardMarkup?(string? buttonText) =>
         buttonText is null ? default : new(buttonText!);
 
@@ -72,7 +76,9 @@ public class InlineKeyboardMarkup : IReplyMarkup
     /// Generate an inline keyboard markup from multiple buttons
     /// </summary>
     /// <param name="inlineKeyboard">Keyboard buttons</param>
-    [return: NotNullIfNotNull("inlineKeyboard")]
+    #if NET6_0_OR_GREATER
+[return: NotNullIfNotNull("inlineKeyboard")]
+#endif
     public static implicit operator InlineKeyboardMarkup?(IEnumerable<InlineKeyboardButton>[]? inlineKeyboard) =>
         inlineKeyboard is null ? default : new(inlineKeyboard);
 
@@ -80,7 +86,9 @@ public class InlineKeyboardMarkup : IReplyMarkup
     /// Generate an inline keyboard markup from multiple buttons on 1 row
     /// </summary>
     /// <param name="inlineKeyboard">Keyboard buttons</param>
-    [return: NotNullIfNotNull("inlineKeyboard")]
+    #if NET6_0_OR_GREATER
+[return: NotNullIfNotNull("inlineKeyboard")]
+#endif
     public static implicit operator InlineKeyboardMarkup?(InlineKeyboardButton[]? inlineKeyboard) =>
         inlineKeyboard is null ? default : new(inlineKeyboard);
 }
